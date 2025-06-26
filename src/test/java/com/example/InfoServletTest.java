@@ -33,8 +33,10 @@ public class InfoServletTest {
 
         // Basic assertions
         assertTrue(output.contains("Thông tin nhóm"));
-        assertTrue(output.contains("Nguyễn Thị A"));
+
+        assertTrue(output.contains("Nguyễn Văn A"));
         assertTrue(output.contains("Trần Thị B"));
         assertTrue(output.contains("Lê Văn C"));
     }
 }
+
