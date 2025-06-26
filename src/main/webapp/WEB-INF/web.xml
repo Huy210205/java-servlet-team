@@ -1,0 +1,13 @@
+<servlet>
+  <servlet-name>HelloServlet</servlet-name>
+  <servlet-class>com.example.HelloServlet</servlet-class>
+  <servlet-name>InfoServlet</servlet-name>
+  <servlet-class>com.example.InfoServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>HelloServlet</servlet-name>
+  <url-pattern>/hello</url-pattern>
+  <servlet-name>InfoServlet</servlet-name>
+  <url-pattern>/info</url-pattern>
+</servlet-mapping>
