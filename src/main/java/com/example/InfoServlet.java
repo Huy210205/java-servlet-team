@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -20,7 +20,7 @@ public class InfoServlet extends HttpServlet {
         out.println("<ul>");
         out.println("<li>Nguyễn Văn A - MSSV: 123</li>");
         out.println("<li>Trần Thị B - MSSV: 456</li>");
-        out.println("<li>Lê Văn C - MSSV: 7892</li>");
+        out.println("<li>Lê Văn C - MSSV: 789</li>");
         out.println("</ul>");
     }
 }
